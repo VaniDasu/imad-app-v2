@@ -23,7 +23,7 @@ var articles={
                         This is the content of article one.
                     </p>`
     },
-     'article-Two': {
+     'article-two': {
           title:'Article Two| Vani Dasu',
         heading: 'Article Two',
         date: 'Feb 2, 2017',
@@ -40,7 +40,7 @@ var articles={
                         This is the content of article two.
                     </p>`
      },
-     'article-Three':{
+     'article-three':{
             title:'Article Three| Vani Dasu',
             heading: 'Article Three',
             date: 'Feb 3, 2017',
