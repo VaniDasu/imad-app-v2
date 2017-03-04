@@ -1,7 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
+var Pool=require('pg').Pool;
 var app = express();
 app.use(morgan('combined'));
 
@@ -98,6 +98,12 @@ function createTemplate(data){
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
+app.get('/', function(req, res){
+   //make a select req
+   //return a response with the results
+   
 });
 
 app.get('/:articleName', function (req, res) {
